@@ -5,7 +5,8 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "format": "pnpm prettier --write slides.md"
   },
   "dependencies": {
     "@slidev/cli": "52.6.0",
